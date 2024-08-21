@@ -1,0 +1,366 @@
+.home-container {
+  display: flex;
+  height: 85vh;
+  scrollbar-width: none;
+  overflow-y: scroll;
+  flex-direction: column;
+}
+
+.mobile-categories-container {
+  padding-left: 5px;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 0px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  position: fixed;
+  background-color: #ffffff;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-categories-container {
+    display: none;
+  }
+}
+
+.active-category {
+  color: #088c03;
+  font-size: 16px;
+}
+
+.normal-category {
+  color: #191919;
+  font-size: 16px;
+}
+
+.mobile-category-item {
+  list-style-type: none;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  text-align: center;
+  width: 100px;
+}
+
+img {
+  color: #ffffff;
+}
+
+.activeBtn {
+  color: #088c03;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.normalBtn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  height: 15vh;
+  position: fixed;
+  padding: 0px;
+  margin-top: 85vh;
+  padding-bottom: 90px;
+
+  width: 100%;
+  padding-right: 30px;
+  border-radius: 10px;
+  border-top: 1px solid #808080;
+}
+
+@media screen and (min-width: 768px) {
+  .icons-container {
+    display: none;
+  }
+}
+
+.icon {
+  list-style-type: none;
+  margin: 20px;
+}
+
+.activeIcon {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  color: #088c03;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.iconBtn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #808080;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  padding-top: 12vh;
+  padding-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .categories-container {
+    padding-top: 10vh;
+    margin-left: 200px;
+    margin-bottom: 20vh;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+}
+
+.products-list {
+  padding: 0px;
+  display: flex;
+  min-width: 100%;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.products-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  min-width: 160px;
+  max-width: 250px;
+  margin-right: 16px;
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid #d8d8d8;
+}
+
+.product-image {
+  width: 100px;
+  align-self: center;
+}
+
+.product-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  color: #191919;
+  font-family: 'Roboto';
+}
+
+.product-weight {
+  font-size: 14px;
+  padding-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #808080;
+  font-family: 'Roboto';
+}
+
+.product-price {
+  font-size: 14px;
+  padding-top: 0px;
+  margin: 0px;
+  font-weight: 600;
+  color: #191919;
+  font-family: 'Roboto';
+}
+
+.quantity-controls {
+  background-color: transparent;
+  color: #088c03;
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #088c03;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.quantity {
+  padding: 0px;
+  margin: 0px;
+}
+
+.hide {
+  font-size: 0px;
+}
+
+.quantity-btn {
+  font-size: 20px;
+  font-weight: 400;
+  background-color: transparent;
+  cursor: pointer;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: none;
+  color: #088c03;
+  margin: 0px;
+}
+
+.add-btn {
+  background-color: transparent;
+  color: #088c03;
+  border: 1.5px solid #088c03;
+  outline: none;
+  border-radius: 5px;
+  width: 55px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.opps-description {
+  font-weight: 500;
+  color: #191919;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.add-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.retry-btn {
+  background-color: #088c03;
+  outline: none;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.desktop-container {
+  display: flex;
+}
+
+.desktop-categories-container {
+  padding-left: 20px;
+  position: fixed;
+  height: 64vh;
+  width: 200px;
+  margin-bottom: 25vh;
+  padding-top: 10px;
+  margin-top: 11vh;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  scrollbar-arrow-color: transparent;
+  scrollbar-color: #088c03 #ffffff;
+  scrollbar-width: thin;
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-categories-container {
+    display: none;
+  }
+}
+
+.desktop-category-item {
+  list-style-type: none;
+  font-size: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.categories-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  color: #088c03;
+}
+
+.desktop-active-category {
+  background-color: #088c03;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: start;
+  border: none;
+  width: 95%;
+  cursor: pointer;
+  margin-right: 5px;
+  outline: none;
+}
+
+.desktop-normal-category {
+  background-color: #ffffff;
+  color: #191919;
+  margin-bottom: 20px;
+  text-align: start;
+  width: 100%;
+  font-size: 16px;
+}

@@ -1,0 +1,125 @@
+.login-container {
+  background-image: url('https://res.cloudinary.com/dayzpflw1/image/upload/v1721645424/Background_1_mgyryl.png');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 576px) {
+  .login-container {
+    background-image: url('https://res.cloudinary.com/dayzpflw1/image/upload/v1721645717/Background_k2f6qd.png');
+  }
+}
+
+.website-logo {
+  width: 119px;
+  height: 85px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 576px) {
+  .website-logo {
+    margin-top: 0px;
+  }
+}
+
+.input-container {
+  border: 1px solid #64748b;
+  width: 271px;
+  padding: 8px, 8px, 8px, 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 576px) {
+  .input-container {
+    width: 383px;
+  }
+}
+
+.show-password-container {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-weight: 400;
+  color: #333333;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.input {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.login-details-container {
+  background-color: #ffffff;
+  height: 478px;
+  border-radius: 16px;
+  display: flex;
+  padding: 8px, 8px, 8px, 12px;
+  flex-direction: column;
+  width: 328px;
+  align-items: center;
+  gap: 40px;
+}
+@media screen and (min-width: 576px) {
+  .login-details-container {
+    height: 524px;
+    width: 511px;
+    padding: 64px;
+  }
+}
+
+.login-button {
+  width: 271px;
+  background-color: #088c03;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 30px;
+  height: 44px;
+}
+@media screen and (min-width: 576px) {
+  .login-button {
+    width: 383px;
+  }
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 13px;
+  color: #64748b;
+}
+
+.check-box {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.error-msg {
+  color: #ef4444;
+  margin-bottom: 20px;
+}
+
+.check-box-label {
+  font-size: 16px;
+  color: #333333;
+}

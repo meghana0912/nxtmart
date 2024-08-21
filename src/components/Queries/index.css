@@ -1,0 +1,32 @@
+.queries-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75vh;
+  background-color: #003f00;
+  height: 25vh;
+  font-family: 'Roboto';
+  color: #ffffff;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  position: fixed;
+}
+
+@media screen and (max-width: 767px) {
+  .queries-container {
+    display: none;
+  }
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.follow-image {
+  width: 30px;
+  margin: 0px 20px 20px 20px;
+}

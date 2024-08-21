@@ -1,0 +1,112 @@
+.success-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 500;
+  color: #191919;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.success-img-container {
+  background-image: url('https://res.cloudinary.com/dayzpflw1/image/upload/v1722317091/Ellipse_1497_1_m8da1k.png');
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.success {
+  width: 50px;
+}
+
+.description {
+  font-weight: 400;
+  color: #191919;
+
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 20px;
+  }
+}
+
+.return-to-homepage-btn {
+  background-color: #088c03;
+  color: #ffffff;
+  font-family: 'Roboto';
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px 15px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.c-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  height: 7vh;
+  position: fixed;
+  padding: 0px;
+  margin-top: 93vh;
+  padding-bottom: 25px;
+  width: 100%;
+  padding-right: 30px;
+  border-radius: 10px;
+  border-top: 1px solid #808080;
+}
+
+@media screen and (min-width: 768px) {
+  .c-container {
+    display: none;
+  }
+}
+
+.icon {
+  list-style-type: none;
+  margin: 20px;
+}
+
+.activeIcon {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #088c03;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.iconBtn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #808080;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
